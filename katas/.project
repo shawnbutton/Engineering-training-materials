@@ -21,14 +21,14 @@
 			<locationURI>WORKSPACE_LOC/.gitignore</locationURI>
 		</link>
 		<link>
+			<name>.travis.yml</name>
+			<type>1</type>
+			<location>/Users/Declan/code/training-java/.travis.yml</location>
+		</link>
+		<link>
 			<name>README.md</name>
 			<type>1</type>
 			<locationURI>WORKSPACE_LOC/README.MD</locationURI>
-		</link>
-		<link>
-			<name>src/bowling/bowling.md</name>
-			<type>1</type>
-			<locationURI>TRAINING_LOC/katas/bowling.md</locationURI>
 		</link>
 		<link>
 			<name>src/fizzbuzz/fizzbuzz.md</name>

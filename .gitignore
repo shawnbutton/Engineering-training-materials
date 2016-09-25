@@ -12,7 +12,4 @@
 /.metadata/**/*.snap
 /.metadata/version.ini
 
-/RemoteSystemsTempFiles/
-/katas/bin
-
 *.swp
