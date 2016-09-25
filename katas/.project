@@ -23,12 +23,7 @@
 		<link>
 			<name>README.md</name>
 			<type>1</type>
-			<locationURI>PARENT-5-ECLIPSE_HOME/code/training/java/README.md</locationURI>
-		</link>
-		<link>
-			<name>General/.gitignore</name>
-			<type>1</type>
-			<locationURI>WORKSPACE_LOC/.gitignore</locationURI>
+			<locationURI>WORKSPACE_LOC/README.MD</locationURI>
 		</link>
 		<link>
 			<name>src/bowling/bowling.md</name>
