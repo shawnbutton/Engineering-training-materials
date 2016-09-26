@@ -16,7 +16,7 @@ If you do want to use `git` but don't have it installed we suggest you download 
 With `git` installed you simply open up a shell or command window and clone this repository:
 
 ```
-$ git clone https://github.com/dwhelan/training.git
+$ git clone https://github.com/dwhelan/training-java.git
 ```
 
 # TODO
