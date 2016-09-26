@@ -11,6 +11,7 @@
 /.metadata/**/*mylyn*
 /.metadata/**/*.snap
 /.metadata/version.ini
+/.metadata/**/*.index
 
 *.swp
 .DS_Store
