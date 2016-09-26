@@ -19,5 +19,8 @@ With `git` installed you simply open up a shell or command window and clone this
 $ git clone https://github.com/dwhelan/training-java.git
 ```
 
+## Eclipse
+The `training-java` folder has been set up as Eclipse workspace (Mars Release 4.5.0). You can simple switch to this workspace via `File | Switch Workspace` and select your local `training-java` folder.
+
 # TODO
 * reduce payload size in repo
