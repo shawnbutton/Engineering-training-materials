@@ -1,8 +1,6 @@
 /.metadata/.log
 /.metadata/.lock
-/.metadata/.plugins
 /.metadata/.recommenders
-/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
 /.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
 /.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/
 /.metadata/.plugins/org.eclipse.jdt.core/*.index
