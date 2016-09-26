@@ -18,12 +18,12 @@ $ git clone https://github.com/dwhelan/training-java.git
 
 ## Eclipse
 ### Choose a workspace
-You can use any workspace you like. You may want to use the `training-java` folder as an Eclipse workspace via `File | Switch Workspace` and select your local `training-java` folder.
+You can use any workspace you like. You may want to use the `training-java` folder as an Eclipse workspace by selecting `File | Switch Workspace` and then selecting your local `training-java` folder.
 
 ### Load the katas project
-Load the `katas` project by `File | Import`. When the `Import` dialog opens select `General | Existing Projects inro Workspace` and click `Next`.
+Load the `katas` project by selecting `File | Import`. When the `Import` dialog opens select `General | Existing Projects into Workspace` and then click `Next`.
 
-Select `Browse` (beside the 'Select root directory) and then select the `katas` folder. You should notice `katas`, with a checkbox beside it, in the list of projects. Click `finish`.
+Select the `Browse` button (beside the 'Select root directory) and then select the `katas` folder under the `training-java` folder that you downloaded. You should notice `katas`, with a checkbox beside it, in the list of projects. Click `finish`.
 
 ### Running tests
 You can run all the tests by right clicking on the `katas` project and selecting `Run As | JUnit Test`. 
