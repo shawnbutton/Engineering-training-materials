@@ -13,3 +13,7 @@
 /.metadata/version.ini
 
 *.swp
+.DS_Store
+.idea
+
+*.received.txt
