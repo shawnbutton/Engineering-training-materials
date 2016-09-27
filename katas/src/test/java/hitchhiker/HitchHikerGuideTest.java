@@ -21,8 +21,11 @@ public class HitchHikerGuideTest {
 		// Arrange
 		HitchHikerGuide guide = new HitchHikerGuide(stubLogger);
 		
-		// Act & Assert
-		assertThat(guide.answer(), is(42));
+		// Act
+		String answer = guide.answer();
+		
+		// Assert
+		assertThat(answer, is("42"));
 	}
 	
 	@Test

@@ -10,8 +10,8 @@ public class HitchHikerGuide {
 		this.logger = logger2;
 	}
 
-	public int answer() {
+	public String answer() {
 	    logger.log("Calculating the meaning of life, the universe and everything");
-		return 42;
+		return "42";
 	}
 }
