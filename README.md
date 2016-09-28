@@ -267,5 +267,41 @@ Enter the text of one of the "Refactoring Commands" from the table below into th
  </tr>
 </table>
 
+### Import JUnit templates
+There are some code templates that you may find useful. You can import them by.
+
+To import the templates open the Eclipse preferences window and select `Java | Editor | Content Assist`.
+Select `Import` and choose the `junit_templates.xml` file under the `katas` folder. Click `Apply` and then `OK`.
+
+See [here](http://http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_imp_code_temp.htm) for more information on using Eclipse templates.
+
+<table>
+  <tr>
+    <td>Template</td><td>What it does</td>
+  </tr>
+  <tr>
+    <td>aaa</td><td>Declares a JUnit 4 test method with Triple-A comments: 
+Arrange, Act, and Assert
+    </td>
+  </tr>
+  <tr>
+    <td>at</td><td>Inserts the assertThat() method</td>
+  </tr>
+  <tr>
+    <td>ae</td><td>Inserts the body of a test case that is expecting an exception</td>
+  </tr>
+  <tr>
+    <td>eq</td><td>Inserts the equalTo() matcher</td>
+  </tr>
+  <tr>
+    <td>parameters</td>
+    <td>Declares a JUnit 4 test data method to provide data to a
+JUnit 4 parameterized test</td>
+  </tr>
+  <tr>
+    <td>test</td><td>Declares a JUnit 4 test method</td>
+  </tr>
+</table>
+
 # TODO
 * reduce payload size in repo
