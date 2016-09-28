@@ -13,7 +13,7 @@ If you do want to use `git` but don't have it installed we suggest you download 
 With `git` installed you simply open up a shell or command window and clone this repository:
 
 ```
-$ git clone https://github.com/dwhelan/training-java.git
+git clone https://github.com/dwhelan/training-java.git
 ```
 
 ## Eclipse
@@ -26,11 +26,15 @@ Load the `katas` project by selecting `File | Import`. When the `Import` dialog 
 Select the `Browse` button (beside the 'Select root directory) and then select the `katas` folder under the `training-java` folder that you downloaded. You should notice `katas`, with a checkbox beside it, in the list of projects. Click `finish`.
 
 ### Running tests
-You can run all the tests by right clicking on the `katas` project and selecting `Run As | JUnit Test`. 
+You can run all the tests by right clicking on the `katas` project and selecting `Run As | JUnit Test`.
+
+You should notice 6 tests run and all of them should be 'skipped'.
 
 You can run individual tests by right clocking on any folder in under `src/test/java` and selecting `Run As | JUnit Test`
 
-You can also use the shortcut **&#8997; &#8984;XT**
+You can also use the shortcut **&#8997; &#8984;X T** (Mac) or **Alt+Shift+X,T** (Windows).
+
+You are ready to start on the training katas!
 
 # TODO
 * reduce payload size in repo
