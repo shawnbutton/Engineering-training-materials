@@ -303,5 +303,22 @@ JUnit 4 parameterized test</td>
   </tr>
 </table>
 
+### Editor favourites
+Eclipses uses favourites to autocomplete and automatically import classes and methds even if you have not imported them explicitly.
+
+To set favourites open the Eclipse preferences window and select `Java | Editor | Content Assist | Favourites`.
+
+We want to add a single `Member` shortcut. Select the `New Member` button, enter `java.utils.Collections.asList` and select `OK`.
+
+We want to add a few `Type` shortcuts. For each entry below select the `New Type` button, enter the text from below and select `OK`.
+
+* `java.util.Arrays`
+* `org.hamcrest.CoreMatchers`
+* `org.hamcrest.Matchers`
+* `org.junit.Assert`
+* `org.junit.matchers.JUnitMatchers`
+
+Click `Apply` and then `OK`.
+
 # TODO
 * reduce payload size in repo
