@@ -1,7 +1,7 @@
 /.metadata
+/RemoteSystemsTempFiles/
 
 *.swp
 .DS_Store
 .idea
-
 *.received.txt

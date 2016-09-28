@@ -23,17 +23,12 @@
 		<link>
 			<name>.travis.yml</name>
 			<type>1</type>
-			<location>/Users/Declan/code/training-java/.travis.yml</location>
+			<location>C:/Users/Declan/code/training-java/.travis.yml</location>
 		</link>
 		<link>
 			<name>README.md</name>
 			<type>1</type>
 			<locationURI>WORKSPACE_LOC/README.MD</locationURI>
-		</link>
-		<link>
-			<name>src/main/java/fizzbuzz/fizzbuzz.md</name>
-			<type>1</type>
-			<locationURI>KATAS_LOC/fizzbuzz.md</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
@@ -43,7 +38,7 @@
 		</variable>
 		<variable>
 			<name>TRAINING_LOC</name>
-			<value>file:/Users/Declan/code/training</value>
+			<value>file:/C:/Users/Declan/code/training</value>
 		</variable>
 	</variableList>
 </projectDescription>
