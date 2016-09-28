@@ -270,7 +270,7 @@ Enter the text of one of the "Refactoring Commands" from the table below into th
 ### Import JUnit templates
 There are some code templates that you may find useful. You can import them by.
 
-To import the templates open the Eclipse preferences window and select `Java | Editor | Content Assist`.
+To import the templates open the Eclipse preferences window and select `Java | Editor | Templates`.
 Select `Import` and choose the `junit_templates.xml` file under the `katas` folder. Click `Apply` and then `OK`.
 
 See [here](http://http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_imp_code_temp.htm) for more information on using Eclipse templates.
