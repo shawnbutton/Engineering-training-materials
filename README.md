@@ -234,7 +234,7 @@ Enter the text of one of the "Refactoring Commands" from the table below into th
  </tr>
  <tr>
   <td>
-  <p>Launch previous</p>
+  <p>Run</p>
   </td>
   <td>
   <p>&#8984;+F11</p>
