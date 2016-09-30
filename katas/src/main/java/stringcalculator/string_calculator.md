@@ -23,3 +23,5 @@ Some examples:
         <td>3</td>
     </tr>
 </table>
+
+Note: you can assume all inputs are well formed - you do not need to handle inputs that do not are not like the examples above.
