@@ -22,6 +22,10 @@ public class RomanNumeralCalculator2Test {
 	public static Collection<Object[]> testData() {
 		return asList(new Object[][] {
 			{ 1, "I" },
+			{ 2, "II" },
+			{ 3, "III" },
+			// ...
+			{ 3000, "MMM" },
 		});
 	}
 
