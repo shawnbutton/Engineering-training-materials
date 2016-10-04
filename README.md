@@ -328,4 +328,4 @@ Click `Apply` and then `OK`.
 * reduce payload size in repo
 * add column describing context for shortcut keys
 * autocomplete key is just there - describe it better
-
+* provide help for Markdown depending on eclipse version

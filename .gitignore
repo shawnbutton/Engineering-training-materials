@@ -2,6 +2,8 @@
 /.recommenders
 /RemoteSystemsTempFiles/
 
+/katas/src/*/solution
+
 *.swp
 .DS_Store
 .idea

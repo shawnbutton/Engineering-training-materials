@@ -13,13 +13,13 @@ import logger.Logger;
 import logger.NullLogger;
 
 public class HitchHikerGuideTest {
-	@Test @Ignore
+	@Test
 	public void should_calculate_answer() {
 		// We use a NullLogger because a RealLogger throws an Exception
-		NullLogger stubLogger = new NullLogger();
+		Logger logger = new NullLogger();
 		
 		// Arrange
-		HitchHikerGuide guide = new HitchHikerGuide(stubLogger);
+		HitchHikerGuide guide = new HitchHikerGuide(logger);
 		
 		// Act
 		String answer = guide.answer();
@@ -30,7 +30,7 @@ public class HitchHikerGuideTest {
 	
 
 	@Test
-	public void should_log_when_calculating_with_spy() {
+	public void should_log_when_calculating_with_a_custom_spy() {
 		// Create a local spy class
 		class SpyLogger implements Logger {
 			private String message;
