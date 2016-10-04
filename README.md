@@ -36,6 +36,46 @@ You can also use the shortcut **&#8997; &#8984;X T** (Mac) or **Alt+Shift+X,T** 
 
 You are ready to start on the training katas!
 
+### Import JUnit templates
+There are some code templates that you may find useful. You can import them by.
+
+To import the templates open the Eclipse preferences window and select `Java | Editor | Templates`.
+Select `Import` and choose the `junit_templates.xml` file under the `katas` folder. Click `Apply` and then `OK`.
+
+See [here](http://http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_imp_code_temp.htm) for more information on using Eclipse templates.
+
+<table>
+  <tr>
+    <td>Template</td><td>What it does</td>
+  </tr>
+  <tr>
+    <td>aaa</td><td>Declares a JUnit 4 test method with Triple-A comments: 
+Arrange, Act, and Assert
+    </td>
+  </tr>
+  <tr>
+    <td>at</td><td>Inserts the assertThat() method</td>
+  </tr>
+  <tr>
+    <td>ae</td><td>Inserts the body of a test case that is expecting an exception</td>
+  </tr>
+  <tr>
+    <td>ee</td><td>Creates a try/catch block for handling an expected exception in a test</td>
+  </tr>  <tr>
+    <td>eq</td><td>Inserts the equalTo() matcher</td>
+  </tr>
+  <tr>
+    <td>parameters</td>
+    <td>Declares a JUnit 4 test data method to provide data to a
+JUnit 4 parameterized test</td>
+  </tr>
+  <tr>
+    <td>test</td><td>Declares a JUnit 4 test method</td>
+  </tr>
+</table>
+
+**Note** if you have a version of Eclipse before Mars (4.5) the templates may not import properly. You could try a newer Eclipse or enter them by hand. You open the `junit_templates.xml` file in Eclipse and manually add the templates.
+
 ### Setting up Eclipse shortcut keys
 The following shortcuts provide a consistent, convenient way to refactor your code. Essentially, on a Mac refactoring shortcuts will start with **&#8997;&#8984;** and on Windows they will start with **ALT+SHIFT**.
 Some of the settings will likely be already set, as they are the defaults.
@@ -267,42 +307,6 @@ Enter the text of one of the "Refactoring Commands" from the table below into th
  </tr>
 </table>
 
-### Import JUnit templates
-There are some code templates that you may find useful. You can import them by.
-
-To import the templates open the Eclipse preferences window and select `Java | Editor | Templates`.
-Select `Import` and choose the `junit_templates.xml` file under the `katas` folder. Click `Apply` and then `OK`.
-
-See [here](http://http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_imp_code_temp.htm) for more information on using Eclipse templates.
-
-<table>
-  <tr>
-    <td>Template</td><td>What it does</td>
-  </tr>
-  <tr>
-    <td>aaa</td><td>Declares a JUnit 4 test method with Triple-A comments: 
-Arrange, Act, and Assert
-    </td>
-  </tr>
-  <tr>
-    <td>at</td><td>Inserts the assertThat() method</td>
-  </tr>
-  <tr>
-    <td>ae</td><td>Inserts the body of a test case that is expecting an exception</td>
-  </tr>
-  <tr>
-    <td>eq</td><td>Inserts the equalTo() matcher</td>
-  </tr>
-  <tr>
-    <td>parameters</td>
-    <td>Declares a JUnit 4 test data method to provide data to a
-JUnit 4 parameterized test</td>
-  </tr>
-  <tr>
-    <td>test</td><td>Declares a JUnit 4 test method</td>
-  </tr>
-</table>
-
 ### Editor favourites
 Eclipses uses favourites to autocomplete and automatically import classes and methds even if you have not imported them explicitly.
 
@@ -322,3 +326,6 @@ Click `Apply` and then `OK`.
 
 # TODO
 * reduce payload size in repo
+* add column describing context for shortcut keys
+* autocomplete key is just there - describe it better
+

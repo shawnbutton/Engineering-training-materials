@@ -1,7 +1,7 @@
 package hitchhiker;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
@@ -28,6 +28,7 @@ public class HitchHikerGuideTest {
 		assertThat(answer, is("42"));
 	}
 	
+
 	@Test
 	public void should_log_when_calculating_with_spy() {
 		// Create a local spy class
