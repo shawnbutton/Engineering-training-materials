@@ -322,3 +322,5 @@ Click `Apply` and then `OK`.
 
 # TODO
 * reduce payload size in repo
+* add instructions from emma coverage
+* provide help for Markdown depending on eclipse version
