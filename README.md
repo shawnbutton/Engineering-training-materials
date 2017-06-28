@@ -8,7 +8,7 @@ The exercises are written in Java (with 1.6 language compatability) and will wor
 The easiest way to access the training exercises is to use `git`. If you really, really don't want to use `git` then
 click **Clone or download** on this page, select **Download Zip** and  unzip the files on your local file system.
 
-If you do want to use `git` but don't have it installed we suggest you download it from the [git download page](https://git-scm.com/download/).
+If you want to use `git` but don't have it installed we suggest you download it from the [git download page](https://git-scm.com/download/).
 
 With `git` installed you simply open up a shell or command window and clone this repository:
 
@@ -49,7 +49,7 @@ See [here](http://http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.cd
     <td>Template</td><td>What it does</td>
   </tr>
   <tr>
-    <td>aaa</td><td>Declares a JUnit 4 test method with Triple-A comments: 
+    <td>aaa</td><td>Declares a JUnit 4 test method with Triple-A comments:
 Arrange, Act, and Assert
     </td>
   </tr>
@@ -83,7 +83,7 @@ Some of the settings will likely be already set, as they are the defaults.
 To edit the shortcuts open the Eclipse preferences window and select `General | Keys`.
 
 Enter the text of one of the "Refactoring Commands" from the table below into the text box with the prompt `enter filter text`. Check that the binding shortcut matches the value in the table below. Click on the command (if you see multiple ones that select the one for `Java`). Click in the `Binding` text and enter the shortcut key combination from the table below. Click `Apply`.
-  
+
 <table>
  <tr>
   <td>
