@@ -11,7 +11,7 @@
 
 var convert = require("./convert");
 
-var inputFiles = ["sample/roman_numeral_calculator.md", "sample/gilded_rose.md"];
+var inputFiles = ["./katas/src/main/java/fizzbuzz/fizzbuzz.md", "./katas/src/main/java/fizzbuzz/fizzbuzz.md", "./katas/src/main/java/fizzbuzz/fizzbuzz.md"];
 var outputName = "output.pdf";
 
 convert(inputFiles, outputName);
