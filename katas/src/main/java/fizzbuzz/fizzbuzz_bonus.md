@@ -25,7 +25,7 @@ game.valueFor(15); // "fizzbuzz"
 
 Players take turns to count incrementally, replacing any number divisible by 3 with the word "fizz", any number divisible by 5 with the word "buzz", and any number divisible by 3 and 5 with the word "fizzbuzz". 
 
-## Variation
+## Bonus Variation
 Also return "fizz" if the number contains the digit "3" and "buzz" if the number contains digit "5":
 
 ```
