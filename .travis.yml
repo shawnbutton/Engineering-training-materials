@@ -3,6 +3,9 @@ matrix:
     - language: java
       jdk:
         - oraclejdk8
+        - oraclejdk7
+        - openjdk6
+
       before_script: cd katas
 
     - laguage: node_js
@@ -11,13 +14,12 @@ matrix:
       cache:
         directories:
           - "node_modules"
-      before_install:
 
       install:
         - npm install
 
-      script:
-        - node index.js
+#      script:
+#        - node index.js
 
       notifications:
         email:
