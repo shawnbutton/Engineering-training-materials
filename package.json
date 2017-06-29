@@ -10,7 +10,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "markdown-pdf": "latest"
+    "markdown-pdf": "latest",
+    "through": "latest"
   },
   "devDependencies": {
     "npm-run-all": "4.0.2"
