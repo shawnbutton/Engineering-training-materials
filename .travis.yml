@@ -2,8 +2,6 @@ language: java
 
 jdk: oraclejdk8
 
-#before_script: cd katas
-
 node_js: node
 
 install: "npm install"
@@ -11,3 +9,4 @@ install: "npm install"
 script:
   - node index.js
   - cd katas
+  - ./gradlew check
