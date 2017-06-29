@@ -6,3 +6,9 @@ jdk:
   - openjdk6
 
 before_script: cd katas
+
+node_js: node
+
+install: "npm install"
+
+#script: "npm test"
