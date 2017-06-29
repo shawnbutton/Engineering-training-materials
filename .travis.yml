@@ -1,24 +1,8 @@
-matrix:
-  include:
-    - language: java
-      jdk: oraclejdk8
+language: java
 
-      before_script: cd katas
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
 
-    - laguage: node_js
-      node_js:
-        - node
-      cache:
-        directories:
-          - "node_modules"
-
-      install:
-        - npm install
-
-#      script:
-#        - node index.js
-
-      notifications:
-        email:
-          - shawnbutton@gmail.com
-
+before_script: cd katas
