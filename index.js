@@ -1,5 +1,6 @@
 //Uses markdownpdf
 //https://www.npmjs.com/package/markdown-pdf
+//https://github.com/alanshaw/markdown-pdf
 
 // You MIGHT need to run the following first to install phantomjs (especially on mac?):
 // node node_modules/phantomjs-prebuilt/install.js
@@ -12,6 +13,8 @@
 var convert = require("./convert");
 
 var inputFiles = [
+    "./workbook/xp-practices.md",
+
     "./katas/src/main/java/fizzbuzz/fizzbuzz_bonus.md",
     "./katas/src/main/java/romannumeralcalculator/roman_numeral_calculator.md",
     "./katas/src/main/java/bowling/bowling.md",

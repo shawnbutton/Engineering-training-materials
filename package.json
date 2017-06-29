@@ -10,8 +10,10 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "path": "latest",
     "markdown-pdf": "latest",
-    "through": "latest"
+    "through": "latest",
+    "cheerio": "latest"
   },
   "devDependencies": {
     "npm-run-all": "4.0.2"
