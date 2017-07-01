@@ -22,11 +22,18 @@ Unfortunately there are some problems:
 
 1. Test failures are common and hard to diagnose. A complex system with many moving parts means that there are lots of places it could fail, and tracking down the failure requires searching through logs to track down the problem.
 
-1. Tests are hard to write. E2E tests generally require a lot of set up.  To get complete test coverage requires 
+1. Tests are hard to write. E2E tests generally require a lot of set up. In addition you run into combinatorial problems. A test scenerio with <em>n</em> steps with only two choices at each would result in <em>2^n</em> possible test runs!
 
-1. Tests are slow. E2E tests generally require a lot of set up, and tests run slow (many orders of magnitude slower than unit tests). To get complete test coverage requires 
+1. Tests are slow. E2E tests generally run many orders of magnitude slower than unit tests. To get complete test coverage could take many hours.
 
+### Moving Testing To A Lower Level
+So what's the solutions? Whenever possible move your tests down to a lower level in the pyramid. For example, rather than E2E tests through a GUI, could you perhaps write tests against a service? 
 
+Could you write one E2E test for the happy case, and one failure test, just to ensure everything is working, and then cover the rest of the logic through unit tests?
+
+Rather than writing integration tests, could you write one to make sure the componants integrate, and then write unit tests to cover the majority of the logic?
+
+Whenever you write a test ask yourself <em>"Is there a way I could write this test at a lower level?"</em>
 
 ### Testing Done By Entire Team
-somthing
+Another 
