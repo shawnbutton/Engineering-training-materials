@@ -53,6 +53,10 @@ These tests verify that the product does what it should from a business and user
 	d. Tests ensuring that the contact of your web service is correct
 	
 
-2. 	What would need to change with how you test in order to doto Continuous Delivery?
+2. 	What would need to change with how you test in order to do Continuous Delivery?
+
+<put blank lines in here>
+
+3. Some people in the testing community prefer the team <b>checks</b> for automated tests, reserving the term <b>tests</b> for tests done by a human. Why do you think they make this distinction?
 
 <put blank lines in here>

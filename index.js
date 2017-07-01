@@ -15,6 +15,7 @@ var convert = require("./convert");
 var inputFiles = [
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
+    "./workbook/testing-pyramid.md",
 
     "./katas/src/main/java/fizzbuzz/fizzbuzz_bonus.md",
     "./katas/src/main/java/romannumeralcalculator/roman_numeral_calculator.md",
