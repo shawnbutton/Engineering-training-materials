@@ -29,3 +29,30 @@ These tests help you to clarify your understanding of the product with business.
 
 These tests verify that the product meets non-functional requirements such as performance, load and security. Business people probably don't want to see these tests, but, again, love to hear that you are running them. Often people will use tools to perform these tests, but this introduces an element of manual effort. Continuous Delivery requires that you include these tests as part of your pipeline.
 
+#### Top-Right - Business-Facing Critiquing The Product
+
+These tests verify that the product does what it should from a business and user perspective. Often manual, these tests use human intelligence to ensure the product is as good as we can create.
+
+
+## Questions
+
+1. In which quadrant would you put these tests?
+
+	a. Unit tests written after the code is complete
+
+	<put blank lines in here>
+
+	b. A/B tests checking the usage of various versions of a web page in production
+	
+	<put blank lines in here>
+	
+	c. 	Integration tests checking that your application correctly calls a database
+
+	<put blank lines in here>
+	
+	d. Tests ensuring that the contact of your web service is correct
+	
+
+2. 	
+	
+	
