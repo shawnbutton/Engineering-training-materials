@@ -53,6 +53,6 @@ These tests verify that the product does what it should from a business and user
 	d. Tests ensuring that the contact of your web service is correct
 	
 
-2. 	
-	
-	
+2. 	What would need to change with how you test in order to doto Continuous Delivery?
+
+<put blank lines in here>
