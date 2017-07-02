@@ -10,3 +10,4 @@
 *.received.txt
 node_modules
 output.pdf
+workbook.pdf

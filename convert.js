@@ -34,7 +34,9 @@ var basePath = path.resolve(__dirname, 'workbook');
 
 var options = {
     preProcessHtml: preProcessHtml(basePath),
-    preProcessMd: preProcessMd
+    preProcessMd: preProcessMd,
+    runningsPath: "."
+
 };
 
 var Convert = function(inputName, outputName) {
