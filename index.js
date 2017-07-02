@@ -23,7 +23,7 @@ var inputFiles = [
     "./katas/src/main/java/gildedrose/gilded_rose.md"
 ];
 
-var outputName = "output.pdf";
+var outputName = "workbook.pdf";
 
 convert(inputFiles, outputName);
 

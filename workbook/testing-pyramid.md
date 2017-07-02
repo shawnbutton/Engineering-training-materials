@@ -35,5 +35,21 @@ Rather than writing integration tests, could you write one to make sure the comp
 
 Whenever you write a test ask yourself <em>"Is there a way I could write this test at a lower level?"</em>
 
+### Testing Is A Continuum
+The picture above shows three layers of testing: E2E, Integration and Unit tests. In practice when you are creating your test suite (and moving tests lower!) you might find that the tests fall into many different levels, and the terms no longer apply.
+
+For example, let's say you have an app that is composed of a Angular front-end, a Java services app with some business logic that calls back-end legacy systems. 
+
+In each of the two tiers you will have unit tests that tightly test your logic, component or service tests that test your higher level services, and integration tests that ensure your app integrates with its dependancies. In fact for the integration tests you might have a couple of types: ones that call an actual dependancy, and ones that call a stubbed back-end. 
+
+You're likely going to create some tests that make sure your two apps are integrating, and to move those tests lower you'll want to stub out the legacy system. 
+
+You'll also want a few tests that call the actual legacy system, true end-to-end. Even with these tests you might stub out portions of your legacy if it is very hard to write tests for portions.
+
+So, when you write your tests be preparded to get creative. Don't fall into the trap of just writing end-to-end through the GUI.
+
+
 ### Testing Done By Entire Team
-Another 
+Above we mentioned that sometimes the <em>inverted test pyramid</em> is a consequence of the testing done by an external test team. 
+Creating a good automated test suite requires the entire team to be involved. Testers understand what to test, and developers understand how to keep a code-base clean, and how to create a framework to support quickly creating tests. Also developers who write tests will ensure that their app is testable!
+
