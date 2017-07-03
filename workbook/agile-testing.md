@@ -36,27 +36,54 @@ These tests verify that the product does what it should from a business and user
 
 ## Questions
 
-1. In which quadrant would you put these tests?
-
-	a. Unit tests written after the code is complete
-
-	<put blank lines in here>
-
-	b. A/B tests checking the usage of various versions of a web page in production
+In which quadrant would you put these tests?
 	
-	<put blank lines in here>
-	
-	c. 	Integration tests checking that your application correctly calls a database
+a. Unit tests written after the code is complete  
 
-	<put blank lines in here>
+b. A/B tests checking the usage of various versions of a web page in production
 	
-	d. Tests ensuring that the contact of your web service is correct
+c. 	Integration tests checking that your application correctly calls a database
+
+	
+d. Tests ensuring that the contact of your web service is correct
+
+
+```
+a.
+
+b.
+
+c.
+
+d.
+
+```
 	
 
 2. 	What would need to change with how you test in order to do Continuous Delivery?
 
-<put blank lines in here>
+```
+
+
+
+
+
+
+
+
+
+```
 
 3. Some people in the testing community prefer the team <b>checks</b> for automated tests, reserving the term <b>tests</b> for tests done by a human. Why do you think they make this distinction?
 
-<put blank lines in here>
+```
+
+
+
+
+
+
+
+
+
+```

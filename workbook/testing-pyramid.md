@@ -53,3 +53,4 @@ So, when you write your tests be preparded to get creative. Don't fall into the 
 Above we mentioned that sometimes the <em>inverted test pyramid</em> is a consequence of the testing done by an external test team. 
 Creating a good automated test suite requires the entire team to be involved. Testers understand what to test, and developers understand how to keep a code-base clean, and how to create a framework to support quickly creating tests. Also developers who write tests will ensure that their app is testable!
 
+
