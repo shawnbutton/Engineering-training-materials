@@ -14,6 +14,7 @@ var convert = require("./convert");
 
 var inputFiles = [
     "./workbook/technical-debt.md",
+    "./workbook/quality-payoff.md",
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
