@@ -54,3 +54,62 @@ Above we mentioned that sometimes the <em>inverted test pyramid</em> is a conseq
 Creating a good automated test suite requires the entire team to be involved. Testers understand what to test, and developers understand how to keep a code-base clean, and how to create a framework to support quickly creating tests. Also developers who write tests will ensure that their app is testable!
 
 
+## Questions
+
+
+What are some reasons that testing using End-to-end tests is expensive? Why might it be more difficult than testing at lower levels?
+
+
+```
+
+
+
+
+
+
+
+
+
+```
+
+
+What are some ways that people of every role can contribute to automated testing?
+
+
+```
+Developers:
+
+
+
+
+Testers:
+
+
+
+
+Architects:
+
+
+
+
+BA/BSAs:
+
+
+
+
+
+```
+
+What would have to change on your team for testing to become a <em>whole team</em> responsibility?
+
+```
+
+
+
+
+
+
+
+
+
+```
