@@ -16,3 +16,11 @@ Here is Ward's definition:
 
 Our definition is much simpler:
 <em>"Technical debt is anything that slows you down."</em>
+### Problem With This Metaphor
+We have seen the technical debt metaphor used to <em>justify</em> the creation of technical debt! more...
+### Technical Debt Quadrants 
+Martin Fowler has created a quadrent for looking at types of technical debt.![Technical Debt Quadrants](media/techDebtQuadrant.png)
+<sub><sup>Source: https://martinfowler.com/bliki/TechnicalDebtQuadrant.html</sup></sub>
+
+
+Explain and discuss the 4 quadrantsWhat are the consequences in each case?Make sure to discuss that technical debt is not only a technical problem, it is the result of a series of compromises that may not have been made with full understanding of the potential consequences. These compromises and problems are non-technical in most of the cases and the team needs to start digging deeper to uncover them. Being aware from the beginning, it can help the team to prevent them to happen by constantly inspecting and adapting.
