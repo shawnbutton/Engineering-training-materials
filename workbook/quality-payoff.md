@@ -31,6 +31,17 @@ After just a few years the decision was made to rewrite the new application....
 
 ### The Rewrite Trap
 
+The stor above is, unfortunately, not unusual. Many developers you speak to have similar stories of an application being allowed to degrade in quality, until development can't think of any other way to fix it other than a rewrite. In fact, we have a special word for this type of system: legacy.
+
+Rewrites are <em>always</em> worse than you predict. We have seen this pattern many time. Often the rewrite is a partial success (although over budget), but sometimes it fails completely as you realize that the job is way larger than you had predicted. We have witnessed a rewrite failure that cost tens of millions, with nothing to show for the money.
+
+We will talk about improving a legacy system later in this course. But what if it was possible to create and maintain an application so that it never became legacy? 
+
+# Application Stewardship
+
+
+
+<br><br><br><br><br><br><br><br>
 
 ![Design Stamina Graph](media/designStaminaGraph.gif)
 <sub><sup>Source: https://martinfowler.com/bliki/DesignStaminaHypothesis.html</sup></sub>
