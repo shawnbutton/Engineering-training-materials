@@ -13,6 +13,7 @@
 var convert = require("./convert");
 
 var inputFiles = [
+    "./workbook/workbook-title-page.md",
     "./workbook/technical-debt.md",
     "./workbook/quality-payoff.md",
     "./workbook/xp-practices.md",
