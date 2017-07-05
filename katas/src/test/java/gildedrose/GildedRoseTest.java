@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 
-	@Test @Ignore
+	@Test
 	@UseReporter(DiffReporter.class)	
 	public void test() throws Exception {
 		Item[] items = new Item[] {
