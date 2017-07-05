@@ -1,6 +1,6 @@
 # Types of Automated Tests
 
-Any automated testing strategy will require the use of more than one type of test. For example, unit, componant, integration, How do you decide which type of test and how many of them you need? 
+Any automated testing strategy will require the use of more than one type of test. For example, unit, component, integration, How do you decide which type of test and how many of them you need? 
 
 ### Testing Pyramid
 Mike Cohn created the <em>automated testing pyramid</em> to illustrate the types of automated tests you might use:
@@ -22,7 +22,7 @@ Unfortunately there are some problems:
 
 1. Test failures are common and hard to diagnose. A complex system with many moving parts means that there are lots of places it could fail, and tracking down the failure requires searching through logs to track down the problem.
 
-1. Tests are hard to write. E2E tests generally require a lot of set up. In addition you run into combinatorial problems. A test scenerio with <em>n</em> steps with only two choices at each would result in <em>2^n</em> possible test runs!
+1. Tests are hard to write. E2E tests generally require a lot of set up. In addition you run into combinatorial problems. A test scenario with <em>n</em> steps with only two choices at each would result in <em>2^n</em> possible test runs!
 
 1. Tests are slow. E2E tests generally run many orders of magnitude slower than unit tests. To get complete test coverage could take many hours.
 
@@ -31,14 +31,14 @@ So what's the solutions? Whenever possible move your tests down to a lower level
 
 Could you write one E2E test for the happy case, and one failure test, just to ensure everything is working, and then cover the rest of the logic through unit tests?
 
-Rather than writing integration tests, could you write one to make sure the componants integrate, and then write unit tests to cover the majority of the logic?
+Rather than writing integration tests, could you write one to make sure the components integrate, and then write unit tests to cover the majority of the logic?
 
 Whenever you write a test ask yourself <em>"Is there a way I could write this test at a lower level?"</em>
 
 ### Testing Is A Continuum
 The picture above shows three layers of testing: E2E, Integration and Unit tests. In practice when you are creating your test suite (and moving tests lower!) you might find that the tests fall into many different levels, and the terms no longer apply.
 
-For example, let's say you have an app that is composed of a Angular front-end, a Java services app with some business logic that calls back-end legacy systems. 
+For example, let's say you have an app that is composed of an Angular front-end, a Java services app with some business logic that calls back-end legacy systems. 
 
 In each of the two tiers you will have unit tests that tightly test your logic, component or service tests that test your higher level services, and integration tests that ensure your app integrates with its dependancies. In fact for the integration tests you might have a couple of types: ones that call an actual dependancy, and ones that call a stubbed back-end. 
 
@@ -46,7 +46,7 @@ You're likely going to create some tests that make sure your two apps are integr
 
 You'll also want a few tests that call the actual legacy system, true end-to-end. Even with these tests you might stub out portions of your legacy if it is very hard to write tests for portions.
 
-So, when you write your tests be preparded to get creative. Don't fall into the trap of just writing end-to-end through the GUI.
+So, when you write your tests be prepared to get creative. Don't fall into the trap of just writing end-to-end through the GUI.
 
 
 ### Testing Done By Entire Team

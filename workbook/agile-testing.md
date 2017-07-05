@@ -2,7 +2,7 @@
 
 ### Testing Quadrants
 
-To help bring clarit to the complicated subject of testing Brian Merrick created the "Testing Quadrants."
+To help bring clarity to the complicated subject of testing Brian Merrick created the "Testing Quadrants."
 He has separated types of testing into four domains, as in the diagram below.
 
 ![Testing Quadrants](media/agile-testing.png)
@@ -18,8 +18,8 @@ Tests on the bottom are <em>product facing</em>. They test the product, but migh
 
 #### Bottom-Left - Technology-Facing Supporting Development
 
-This is the domain of automated unit and componant tests. Your business is probably not interested in seeing these tests (although they love the confidence that comes from knowing you are writing them). They support the team because they allow the team to quickly evolve and new features to the code.
-In particular Test-Driven Development (TDD) is in this quadrant. Writing code using TDD helps you think through the requirements in an incremental fashion, and having the TDD tests allows to you refactor continously to keep your code clean to allow you to move fast.
+This is the domain of automated unit and component tests. Your business is probably not interested in seeing these tests (although they love the confidence that comes from knowing you are writing them). They support the team because they allow the team to quickly evolve and new features to the code.
+In particular Test-Driven Development (TDD) is in this quadrant. Writing code using TDD helps you think through the requirements in an incremental fashion, and having the TDD tests allows to you refactor continuously to keep your code clean to allow you to move fast.
 
 #### Top-Left - Biz Facing Supporting Development
 
