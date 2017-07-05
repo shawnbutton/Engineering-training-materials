@@ -15,9 +15,13 @@ exports.header = null;
 
 exports.footer =
     {
-        height: "1cm",
+        height: ".5cm",
         contents: function (pageNum, numPages) {
-            return "<h1>Header <span style='float:right'>" + pageNum + " / " + numPages + "</span></h1>"
+            // no footer on page 1
+            if (pageNum === 1) return "";
+
+            return "<span style='font-size: 8pt'>Leanintuit - Agile Engineering Workbook <span style='float:right'>" +
+                pageNum + " / " + numPages + "</span></span>";
         }
     };
 
