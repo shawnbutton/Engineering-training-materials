@@ -2,7 +2,7 @@ language: java
 
 jdk: oraclejdk8
 
-node_js: node
+node_js: "7"
 
 install: "npm install"
 
