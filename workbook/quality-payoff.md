@@ -58,7 +58,7 @@ Most often when we see people compromise quality in order to
 ![Design Stamina Graph](media/designStaminaGraph.gif)
 <sub><sup>Source: https://martinfowler.com/bliki/DesignStaminaHypothesis.html</sup></sub>
 
-There comes a time where the total amount of functionality delivered with a quality application exceeds the 
+There comes a time where the total amount of functionality delivered with a quality application exceeds the amount that would be delivered with poor 
 
 ### Application Stewardship
 We like the term <em>application stewardship</em> for the 

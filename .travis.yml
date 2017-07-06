@@ -6,6 +6,7 @@ script:
 - node index.js
 notifications:
   slack:
-    secure: VGRzCatpOf8ie8/lO6OieR0xw2ILz1poJkQBNI64VAtmI8OBxGFCiLs7Dvin3w2GJ8Q4+AqtvM+XxVgMQs3/KLnjzQYgFrBlut26va+UknY9TzLik5K2kd42FHnTDiddbdv8RgfliwkNC2Vd3yQbrw3xrGJKIoufZlgofGA/Sgnh95IMktvOz4RE+6YhEziA8d6/1QhRfxWlWLAFUEX6raBFgUaNBVE4gEpGSIdSvkVpfuRlvJBrjE4ymRecZlQkAwplPZC472Z4nJ1DFBYhL1+FnLc/dSPQU8KgJhgzkR6cB45Z/C/EzPDRA/eB7ARjhhw4wIlpEYmFbX1cmpUbqrKB8XhvACB7SkDtHIR0Rc0/CDpzIcTRWRPOIjO0/zDquEEYFnCS2nDIZIrtSHO9sqmrCag/YA1vTz3AKRFEBCv4zHUuK/1VTdQKb5N+37IV7VDXK5rqo+nhLprzyIMGyTT7YC+4L89E/6xdDYNvEhQzj2LX7GakneyYcuygY3JMhu/Fdet+DWS64zjXv+e3xSOLS7itqsI6gn0pYsVG1Txefg4OHbA1I4WY9jA6Pj/8I9WgADmqTfc1iAXSm8rnJtuuvgUp2nu7gepkUw/JrrySZyMak0scRV0vsNL8S5OmxpkqLPcjFcoY2bCPB8lfstXXbUAQ6IFwUbXeYW4VZ1M=
+    rooms:
+      - leanintuit:4TbhlQX6AdNBl5hTK0PubKnh#engineering_training
     on_success: always
     on_failure: always
