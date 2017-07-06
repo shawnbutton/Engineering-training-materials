@@ -19,6 +19,7 @@ var inputFiles = [
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
+    "./workbook/stories.md",
 
     "./katas/fizzbuzz_bonus.md",
     "./katas/roman_numeral_calculator.md",
