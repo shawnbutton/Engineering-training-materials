@@ -1,12 +1,4 @@
-/.metadata
-/.recommenders
-/RemoteSystemsTempFiles/
-
-/katas/src/*/solution
-
-*.swp
 .DS_Store
 .idea
-*.received.txt
 node_modules
 
