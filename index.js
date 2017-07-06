@@ -16,10 +16,11 @@ var inputFiles = [
     "./workbook/workbook-title-page.md",
     "./workbook/technical-debt.md",
     "./workbook/quality-payoff.md",
+    "./workbook/stories.md",
+    "./workbook/dodgy-stories.md",
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
-    "./workbook/stories.md",
 
     "./katas/fizzbuzz_bonus.md",
     "./katas/roman_numeral_calculator.md",
