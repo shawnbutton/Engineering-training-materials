@@ -41,6 +41,9 @@ We will talk about improving a legacy system later in this course. But what if i
 ### Design Payoff Line
 Take a look at the pseudo-graph below, from Martin Fowler. It represents the delivery of features over time. 
 
+![Design Stamina Graph](media/designStaminaGraph.gif)
+<sub><sup>Source: https://martinfowler.com/bliki/DesignStaminaHypothesis.html</sup></sub>
+
 The gold line represents an application where continual attention is paid to quality. (Fowler uses the term "design", but we believe this applies to other aspects of quality as well).
 
 The blue line is an applications developed without attention to quality. It starts faster than the "quality" line, but over time the rate of delivery goes down as technical debt increases ("anything that slows you down").
@@ -51,17 +54,18 @@ Prior to the design payoff line it may be worth reducing quality in order to get
 
 This is the essence of the <em>Deliberate/Prudent</em> technical debt. If we need to deliver to make a <em>real</em> deadline (such as a regulatory requirement, or a potentially lost market opportunity) perhaps it makes sense to me quality in the short-term. And pay off the debt afterwards.
 
-Most often when we see people compromise quality in order to 
+Most often when we see people compromise quality in order to make a deadline, they never go back to fix the debt, which makes it a reckless choice.
+
+In addition, the <em>time</em> we feel that people overestimate it takes to get to the design payoff line, i.e. when do we start getting payoff from quality. Of course it's different for every app, but its our feeling that the payoff happens in <em><strong>a few months</strong></em>, or even sooner.
+
+Most often the timeframe we should be looking to optimize return is in the nature of many months, or years.
+
+Thus if you are hoping to make a prudent decision to take on technical debt to make a deadline, it had better been in the realm of a couple of months, otherwise you are making a poor decision.
 
 
-
-![Design Stamina Graph](media/designStaminaGraph.gif)
-<sub><sup>Source: https://martinfowler.com/bliki/DesignStaminaHypothesis.html</sup></sub>
-
-There comes a time where the total amount of functionality delivered with a quality application exceeds the amount that would be delivered with poor 
 
 ### Application Stewardship
-We like the term <em>application stewardship</em> for the 
+We like the term <em>application stewardship</em> to describe the process of maintaining an application throughout its life. 
 
 
 ## Questions
