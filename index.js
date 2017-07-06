@@ -20,10 +20,10 @@ var inputFiles = [
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
 
-    "./kata/fizzbuzz_bonus.md",
-    "./kata/roman_numeral_calculator.md",
-    "./kata/bowling.md",
-    "./kata/gilded_rose.md"
+    "./katas/fizzbuzz_bonus.md",
+    "./katas/roman_numeral_calculator.md",
+    "./katas/bowling.md",
+    "./katas/gilded_rose.md"
 ];
 
 var outputName = "workbook.pdf";
