@@ -65,12 +65,51 @@ Thus if you are hoping to make a prudent decision to take on technical debt to m
 
 
 ### Application Stewardship
-We like the term <em>application stewardship</em> to describe the process of maintaining an application throughout its life. 
+We like the term <em>application stewardship</em> to describe the process of maintaining an application throughout its life. Too often we develop and application and then don't maintain it until it is in dire shape. Ideally you care and feed the application continously. Make small improvements to the architecture. Write some new tests to catch bugs we find in production. Refactor out some duplication. Keep the frameworks up to date.
+
+When we do need to do a larger technological, say we feel its time for a new Javascript framework or a new UI design, change the app incrementally. Don't rewrite, but rather try out the change on a small part of the app and slowly migrate. This is way faster, less risky and causes less disruption to our users.
 
 
 ## Questions
 
-something?
+At your company what are some things that make it hard to delivery quality? How might we mitigate them?
+
+```
+
+
+
+
+
+
+
+```
+
+At your company what are some things that make it hard to maintain an application after development? How might we mitigate them?
+
+```
+
+
+
+
+
+
+
+```
+
+What are some examples you have seen of an application that has been allowed to become "legacy?"
+
+```
+
+
+
+
+
+
+
+```
+
+
+What are some ways the legacy applications you have seen might have been incrementally improved?
 
 ```
 
