@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-  - "7"
-
-install: "npm install"
-
+- '7'
+install: npm install
 script:
-  - node index.js
+- node index.js
+notifications:
+  slack:
+    secure: up2SRB4z1SZUumUXeeq+A8foMgmq2QTuwwJzFQpl6fGp+Qv2eKiR8tXMLGukGOgfShDvG7x0KK+vZmqRMiPqtZ3RPCd393Wg3Y+S+07XNb7u7KQEj19J3aGFe6m71LYQfZmy0/TjxK88V5ml+wBNrkgVNQ2Hh1j9lV4buhN8Jqpn5gb4bogI//H1Ad6zTLGSFKTORM4IkvuJhQfMc+06RpuMJa5298X+0E3hNvcG7IrAXMJh+AlXEXOIRYuUqKxENmAvo+QFfsFNNpQoO1yclkjvmNNkGm7ovVWKEyCEzjsBqkvULJ4n98xI5M/c9Z+MjxaCIZJEOnH5mNkepd7ej9kEaYmNbgRuIAc+4hHaXj78oyqrLMJ5l2PL87YWprTexValD5/vYLy5VozjfCsZOLwPlEVd9QntRR+qRuV1CQ1jm9hUTBoYaEmjxpLawkaN6nlieJZE8uX4IjcsqzJOnoTidso2QyuJxX3JrRP76sFF6Od+mYNAA/Di+DL6+XQf0Fs8LA7SF7keO4t6mv7Mm29jizTidOi6s0TmEmUDx4RKschweJt67ROKEFsxfeHDSQSfUFMejK4p6JaNREDc3FngaF97UC1PEdjWtw8tZdpYuFbo91B77iNsudKrI8YA3p73VGwvV7QQFX2vP50OCSRTvHLID1QC5f7PiIFAFr8=
