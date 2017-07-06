@@ -17,6 +17,7 @@ var inputFiles = [
     "./workbook/technical-debt.md",
     "./workbook/quality-payoff.md",
     "./workbook/stories.md",
+    "./workbook/invest.md",
     "./workbook/dodgy-stories.md",
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
