@@ -1,9 +1,4 @@
-# Quality Payoff
-
-
-### Our Hypothesis About Quality
-We believe that producing quality software pays off eventually. 
-
+# Technical Quality Payoff
 
 ### The Story of an Application
 One of us (Shawn) worked on an application that he was really proud of. 
@@ -46,7 +41,7 @@ Take a look at the pseudo-graph below, from Martin Fowler. It represents the del
 
 The gold line represents an application where continual attention is paid to quality. (Fowler uses the term "design", but we believe this applies to other aspects of quality as well).
 
-The blue line is an applications developed without attention to quality. At the start it delivers functionallty faster than the "quality" line, but over time the rate of delivery goes down as technical debt increases ("anything that slows you down").
+The blue line is an applications developed without attention to quality. At the start it delivers functionality faster than the "quality" line, but over time the rate of delivery goes down as technical debt increases ("anything that slows you down").
 
 The interesting point is the <em>design payoff line</em>. After this time the "good design" application has delivered more functionality, and continues to deliver faster, than the "no design" line. 
 
@@ -56,7 +51,7 @@ This is the essence of the <em>Deliberate/Prudent</em> technical debt. If we nee
 
 Most often when we see people compromise quality in order to make a deadline, they <em>never go back to fix the debt</em>, which makes it a reckless choice.
 
-In addition, we feel that people overestimate the time it takes to get to the design payoff line, i.e. when do we start getting payoff from quality. Of course it's different for every app, but its our feeling that the payoff happens in <em><strong>a few months</strong></em>, or even sooner.
+In addition, we feel that people overestimate the time it takes to get to the design payoff line, i.e., when do we start getting payoff from quality. Of course it's different for every app, but it's our feeling that the payoff happens in <em><strong>a few months</strong></em>, or even sooner.
 
 Most often the timeframe we should be looking at to optimize return is in the nature of many months, or years.
 
@@ -67,7 +62,7 @@ Thus if you are hoping to make a prudent decision to take on technical debt to m
 ### Application Stewardship
 We like the term <em>application stewardship</em> to describe the process of maintaining an application throughout its life. Too often we develop an application and then don't maintain it until it is in dire shape. Ideally you care and feed the application continuously. Make small improvements to the architecture. Write some new tests to catch bugs we find in production. Refactor-out some duplication. Keep the frameworks up to date.
 
-When we do need to do a larger technological change, say we feel its time for a new Javascript framework or a new UI design, change the app incrementally. Don't rewrite, but rather try out the change on a small part of the app and slowly migrate the rest. This is way faster, less risky and causes less disruption to our users.
+Eventually we do need to do a larger technological change; perhaps we feel its time for a new Javascript framework or a new UI design. In that case change the app incrementally. Don't rewrite, but rather try out the change on a small part of the app and slowly migrate the rest. This is way less risky from a technology and business standpoint, and causes less disruption to our users.
 
 
 ## Questions
