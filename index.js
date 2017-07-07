@@ -21,6 +21,7 @@ var inputFiles = [
     "./workbook/invest.md",
     "./workbook/dodgy-stories.md",
     "./workbook/story-splitting.md",
+    "./workbook/elephant.md",
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
