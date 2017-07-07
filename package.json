@@ -13,7 +13,8 @@
     "path": "latest",
     "markdown-pdf": "latest",
     "through": "latest",
-    "cheerio": "latest"
+    "cheerio": "latest",
+    "markdown-toc": "latest"
   },
   "devDependencies": {
     "npm-run-all": "4.0.2"
