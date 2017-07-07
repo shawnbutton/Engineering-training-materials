@@ -21,8 +21,9 @@ We have seen the technical debt metaphor used to <em>justify</em> the creation o
 
 Of course after you deliver the debt-ridden code, there's another deadline, and another deadline, and you never go back and pay off the debt.
 ### Technical Debt Quadrants 
-Martin Fowler has created a quadrant for looking at types of technical debt:
-![Technical Debt Quadrants](media/techDebtQuadrant.png)
+Martin Fowler has created grid for looking at types of technical debt.<br>
+<br>
+![Technical Debt Quadrants](media/techDebtQuadrant.png)
 <sub><sup>Source: https://martinfowler.com/bliki/TechnicalDebtQuadrant.html</sup></sub>
 
 
