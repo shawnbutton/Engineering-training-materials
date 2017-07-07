@@ -1,0 +1,1 @@
+![Story Splitting](media/Story-Splitting-Flowchart.png)

@@ -20,6 +20,7 @@ var inputFiles = [
     "./workbook/3cs.md",
     "./workbook/invest.md",
     "./workbook/dodgy-stories.md",
+    "./workbook/story-splitting.md",
     "./workbook/xp-practices.md",
     "./workbook/agile-testing.md",
     "./workbook/testing-pyramid.md",
