@@ -24,5 +24,5 @@ After running an acceptance test (manual or automated) and confirming with the c
 Build the software based on our conversations.
 
 
-#### Bonus C #4 - Consequences
+#### Bonus C #5 - Consequences
 Get feedback from users, for the next stories.

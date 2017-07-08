@@ -1,32 +1,31 @@
-var markdownpdf = require("markdown-pdf"),
-    through = require('through'),
-    path = require('path'),
-    cheerio = require('cheerio');
-
+const markdownpdf = require("markdown-pdf"),
+      through     = require('through'),
+      path        = require('path'),
+      cheerio     = require('cheerio');
 
 function preProcessMd () {
-    return through(function(data) {
-        pageBreak = '\n\n<div style="page-break-before: always;"></div>\n\n';
+  return through(function(data) {
+    const pageBreak = '\n\n<div style="page-break-before: always;"></div>\n\n';
 
-        this.queue(data + pageBreak);
-    })
+    this.queue(data + pageBreak);
+  })
 }
 
-var preProcessHtml = function(basePath) {
-    return function() {
-        return through(function(chunk) {
-            var $ = cheerio.load(chunk);
+const preProcessHtml = basePath => {
+  return () => {
+    return through(function(chunk) {
+      const $ = cheerio.load(chunk);
 
-            $('img[src]').each(function() {
-                var imagePath = $(this).attr('src');
-                imagePath = path.resolve(basePath, imagePath);
-                var newImageTag = imagePath;
-                $(this).attr('src', newImageTag);
-            });
+      $('img[src]').each(function() {
+        let imagePath = $(this).attr('src');
+        imagePath = path.resolve(basePath, imagePath);
+        const newImageTag = imagePath;
+        $(this).attr('src', newImageTag);
+      });
 
-            this.push($.html());
-        });
-    }
+      this.push($.html());
+    });
+  }
 };
 
 
@@ -35,16 +34,16 @@ var basePath = path.resolve(__dirname, 'workbook');
 var options = {
     preProcessHtml: preProcessHtml(basePath),
     preProcessMd: preProcessMd,
-    runningsPath: "runnings.js"
+    runningsPath: 'runnings.js'
 
 };
 
 var Convert = function(inputName, outputName) {
 
-    console.log("Converting " + inputName + " to " + outputName);
+    console.log('Converting', inputName, 'to', outputName);
 
     markdownpdf(options).concat.from(inputName).to(outputName, function () {
-        console.log("Created", outputName);
+        console.log('Created', outputName);
     });
 
 };
