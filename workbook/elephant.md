@@ -16,7 +16,6 @@
 5.	Debrief
 
 
-
 ####Discount Calculation
 |Order Value | Discount Rate|
 | :---: | :---: |
@@ -30,65 +29,7 @@
 |State | Tax Rate|
 | :---: | :---: |
 |UT|6.85%|
-|$5,000|5%|
-|$7,000|7%|
-|$10,000|10%|
-|$50,000|15%|
-
-
-
-
-![Carpaccio](media/elephant-handout.png)
-
-
- 
-## Questions
-
-At your company what are some things that make it hard to delivery quality? How might we mitigate them?
-
-```
-
-
-
-
-
-
-
-```
-
-At your company what are some things that make it hard to maintain an application after development? How might we mitigate them?
-
-```
-
-
-
-
-
-
-
-```
-
-What are some examples you have seen of an application that has been allowed to become "legacy?"
-
-```
-
-
-
-
-
-
-
-```
-
-
-What are some ways the legacy applications you have seen might have been incrementally improved?
-
-```
-
-
-
-
-
-
-
-```
+|NV|8.00%|
+|TX|6.25%|
+|AL|4.00%|
+|CA|8.25%|

@@ -20,6 +20,7 @@ const inputFiles = [
   './workbook/xp-practices.md',
   './workbook/agile-testing.md',
   './workbook/testing-pyramid.md',
+  './workbook/sbe.md',
 
   './workbook/getting-started-java.md',
   './katas/fizzbuzz_bonus.md',
