@@ -15,8 +15,7 @@
 
 5.	Debrief
 
-
-#### Discount Calculation
+### Discount Calculation
 |Order Value | Discount Rate |
 |     ---:   | :---          |
 |  $1,000    | 3%            |
@@ -30,11 +29,11 @@
 <br/>
 <br/>
 
-#### Tax Calculation
-|State | Tax Rate|
-| :---: | :---: |
-|UT|6.85%|
-|NV|8.00%|
-|TX|6.25%|
-|AL|4.00%|
-|CA|8.25%|
+### Tax Calculation
+| State | Tax Rate |
+| ---:  | :---     |
+|   UT  | 6.85%    |
+|   NV  | 8.00%    |
+|   TX  | 6.25%    |
+|   AL  | 4.00%    |
+|   CA  | 8.25%    |
