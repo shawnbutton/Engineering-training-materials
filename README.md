@@ -13,3 +13,4 @@ This repository contains the workbook and presentation materials for the Leanint
 * update travis build to push the completed PDF somewhere (S3?)
 * figure out a way to share files that are in the training-xxx repos and this one
 * create table of contents
+* add dice of debt game sheets
