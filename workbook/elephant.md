@@ -16,7 +16,7 @@
 5.	Debrief
 
 
-#### Discount Calculation
+### Discount Calculation
 |Order Value | Discount Rate|
 | :---: | :---: |
 |$1,000|3%|
@@ -25,7 +25,7 @@
 |$10,000|10%|
 |$50,000|15%|
 
-#### Tax Calculation
+### Tax Calculation
 |State | Tax Rate|
 | :---: | :---: |
 |UT|6.85%|
