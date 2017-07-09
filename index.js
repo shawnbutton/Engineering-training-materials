@@ -27,9 +27,12 @@ const inputFiles = [
   './workbook/eclipse-shortcuts-mac.md',
   './workbook/eclipse-junit-templates.md',
   './workbook/eclipse-favourites.md',
+
+  './katas/bowling.md',
   './katas/fizzbuzz_bonus.md',
   './katas/roman_numeral_calculator.md',
-  './katas/bowling.md',
+  './katas/bartender.md',
+  './katas/bartender2.md',
   './katas/gilded_rose.md'
 ];
 

@@ -14,16 +14,27 @@ Here is Ward's definition:
 
 <em>“When taking short cuts and delivering code that is not quite right for the programming task of the moment, a development team incurs Technical Debt. This debt decreases productivity. This loss of productivity is the interest of the Technical Debt - Ward Cunningham”</em>
 
-Our definition is much simpler:
-<em>"Technical debt is anything that slows you down - Declan Whelan"</em>
+Michael Feathers has a succinct way of stating it:
+
+<em>“Technical debt is the refactoring effort needed to add a feature non-invasively - Michael Feathers</em>
+
+Our definition is even simpler:
+
+<em>"Technical debt is anything that slows you down - Declan Whelan"</em>
+
 ### The Problem With This Metaphor
 We have seen the technical debt metaphor used to <em>justify</em> the creation of technical debt! The argument goes like this: "We really need to get this feature out to make this deadline! So we will create some technical debt now in order to make the date, and fix it later."
 
-Of course after you deliver the debt-ridden code, there's another deadline, and another deadline, and you never go back and pay off the debt.
+Of course after you deliver the debt-ridden code, there's another deadline, and another deadline, and you never go back and pay off the debt.
+
+
 ### Technical Debt Quadrants 
-Martin Fowler has created grid for looking at types of technical debt.<br>
+
+Martin Fowler has created a grid for looking at types of technical debt.
 <br>
-![Technical Debt Quadrants](media/techDebtQuadrant.png)
+<br>
+
+![Technical Debt Quadrants](media/techDebtQuadrant.png)
 <sub><sup>Source: https://martinfowler.com/bliki/TechnicalDebtQuadrant.html</sup></sub>
 
 
@@ -104,4 +115,4 @@ Prudent/Inadvertent
 ```
 
 
-
+

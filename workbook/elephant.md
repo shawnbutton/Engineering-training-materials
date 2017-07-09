@@ -17,13 +17,18 @@
 
 
 #### Discount Calculation
-|Order Value | Discount Rate|
-| :---: | :---: |
-|$1,000|3%|
-|$5,000|5%|
-|$7,000|7%|
-|$10,000|10%|
-|$50,000|15%|
+|Order Value | Discount Rate |
+|     ---:   | :---          |
+|  $1,000    | 3%            |
+|  $5,000    | 5%            |
+|  $7,000    | 7%            |
+| $10,000    | 10%           |
+| $50,000    | 15%           |
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 #### Tax Calculation
 |State | Tax Rate|

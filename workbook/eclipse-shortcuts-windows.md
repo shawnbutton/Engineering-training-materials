@@ -1,4 +1,4 @@
-# Set up Eclipse shortcuts for the Mac
+# Set up Eclipse shortcuts for Windows
 
 If you are using Eclipse on a PC we recommend setting up the following keyboard shortcuts:
 

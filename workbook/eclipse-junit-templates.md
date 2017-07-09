@@ -5,7 +5,7 @@ If you are using Eclipse we recommend setting up JUnit unit test templates:
 * open up the `Preferences` dialog
 * select `General` | `Java` | `Editor` | `Templates` in the left navigation pane
 * press the `Import` button
-* select `junit_templates.xml` file in the `katas` folder and press `Open`
+* select the `junit_templates.xml` file from the `katas` folder and press `Open`
 
 You should have the following additional templates:
 
