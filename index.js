@@ -23,6 +23,10 @@ const inputFiles = [
   './workbook/sbe.md',
 
   './workbook/getting-started-java.md',
+  './workbook/eclipse-shortcuts-windows.md',
+  './workbook/eclipse-shortcuts-mac.md',
+  './workbook/eclipse-junit-templates.md',
+  './workbook/eclipse-favourites.md',
   './katas/fizzbuzz_bonus.md',
   './katas/roman_numeral_calculator.md',
   './katas/bowling.md',

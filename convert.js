@@ -28,27 +28,20 @@ const preProcessHtml = basePath => {
   }
 };
 
+const basePath = path.resolve(__dirname, 'workbook');
 
-var basePath = path.resolve(__dirname, 'workbook');
-
-var options = {
-    preProcessHtml: preProcessHtml(basePath),
-    preProcessMd: preProcessMd,
-    runningsPath: 'runnings.js'
-
+const options = {
+  preProcessHtml: preProcessHtml(basePath),
+  preProcessMd: preProcessMd,
+  runningsPath: 'runnings.js'
 };
 
 var Convert = function(inputName, outputName) {
+  console.log('Converting', inputName, 'to', outputName);
 
-    console.log('Converting', inputName, 'to', outputName);
-
-    markdownpdf(options).concat.from(inputName).to(outputName, function () {
-        console.log('Created', outputName);
-    });
-
+  markdownpdf(options).concat.from(inputName).to(outputName, function () {
+      console.log('Created', outputName);
+  });
 };
 
 module.exports = Convert;
-
-
-

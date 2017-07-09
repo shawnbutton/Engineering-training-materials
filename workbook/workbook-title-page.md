@@ -5,7 +5,7 @@
 <br/>
 <div align="center">
 
-# Agile Engineering Training
+# Engineering Training
 #### PARTICIPANT MANUAL + WORKBOOK
 
 
@@ -16,6 +16,5 @@
 
 ![Leanintuit](media/leanintuit-hi-res-logo.png)
 
----
 
 </div>
