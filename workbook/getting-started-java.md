@@ -1,7 +1,7 @@
 # Getting started with the training code - Java
 
 ## Preqrequisites
-You will need to install version 6, 7 or 8 of the Java Development Kit. The Java SE verion of the development kit is recommended if you do already have an the JDK installed.
+You will need to install the Java Development Kit (versions 6, 7, 8 are supported). The Java SE verion of the development kit is recommended if you do not already have an the JDK installed.
 
 ## Get the code
 Use `git` to clone the repo locally:
@@ -9,8 +9,9 @@ Use `git` to clone the repo locally:
 ```
 git clone https://github.com/dwhelan/training-java.git
 ```
+
 ## Build the code
-Change directory into `training-java/folder` and run `gradlew`:
+From a command or shell prompt change directory into `training-java/folder` and run `gradlew`:
 
 ```bash
 # Mac, Linux

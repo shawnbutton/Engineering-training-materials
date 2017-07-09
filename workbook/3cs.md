@@ -1,6 +1,6 @@
 # Three Cs Of A User Story
 
-User Stories have three critical aspects (from Ron Jeffries)
+User Stories have three critical aspects (from Ron Jeffries).
 
 #### Card
 
@@ -19,10 +19,8 @@ At the beginning of the iteration, the customer communicates to the team what sh
 Many teams express the criteria in the form of tests, which ensures clarity (and as a bonus makes it easy to create some automated tests!).
 After running an acceptance test (manual or automated) and confirming with the client that the test was successful a card has been completed.
 
-
 #### Bonus C #4 - Construction
 Build the software based on our conversations.
-
 
 #### Bonus C #5 - Consequences
 Get feedback from users, for the next stories.

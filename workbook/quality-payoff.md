@@ -17,7 +17,7 @@ Six new application teams were created to write a replacement app. A lot of mone
 
 After a couple of years the new application was complete! The old application was decommissioned (partly -- there was still some functionality that wasn't moved to the new app for a couple more years). 
 
-Business and users were less than happy with the new app. It was different from the old one, so a lot of retraining was necessary. There were some ways that it was better than the old app, but some ways it was worse, and you better believe business and users focused on those deficiencies.
+Business and users were less than happy with the new app. It was different from the old one, so a lot of retraining was necessary. There were some ways that it was better than the old app, but in some ways it was worse, and you better believe business and users focused on those deficiencies.
 
 Also business wasn't happy with how long it took to add new functionality to the new system. It seems that the tight deadlines meant that IT took short-cuts with the design and quality of the new application. 
 

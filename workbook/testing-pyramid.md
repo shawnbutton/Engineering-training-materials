@@ -27,7 +27,7 @@ Unfortunately there are some problems:
 1. Tests are slow. E2E tests generally run many orders of magnitude slower than unit tests. To get complete test coverage could take many hours.
 
 ### Moving Testing To A Lower Level
-So what's the solutions? Whenever possible move your tests down to a lower level in the pyramid. For example, rather than E2E tests through a GUI, could you perhaps write tests against a service? 
+So what's the solution? Whenever possible move your tests down to a lower level in the pyramid. For example, rather than E2E tests through a GUI, could you perhaps write tests against a service? 
 
 Could you write one E2E test for the happy case, and one failure test, just to ensure everything is working, and then cover the rest of the logic through unit tests?
 
@@ -46,12 +46,12 @@ You're likely going to create some tests that make sure your two apps are integr
 
 You'll also want a few tests that call the actual legacy system, true end-to-end. Even with these tests you might stub out portions of your legacy if it is very hard to write tests for portions.
 
-So, when you write your tests be prepared to get creative. Don't fall into the trap of just writing end-to-end through the GUI.
+So, when you write your tests be prepared to get creative. Don't fall into the trap of just writing end-to-end tests through the GUI.
 
 
 ### Testing Done By Entire Team
 Above we mentioned that sometimes the <em>inverted test pyramid</em> is a consequence of the testing done by an external test team. 
-Creating a good automated test suite requires the entire team to be involved. Testers understand what to test, and developers understand how to keep a code-base clean, and how to create a framework to support quickly creating tests. Also developers who write tests will ensure that their app is testable!
+Creating a good automated test suite requires the entire team to be involved. Testers understand what to test, and developers understand how to keep a code-base clean and how to create a framework to support quickly creating tests. Also developers who write tests will ensure that their app is testable!
 
 
 ## Questions
