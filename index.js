@@ -8,32 +8,33 @@
 const convert = require('./convert');
 
 const inputFiles = [
-  './workbook/workbook-title-page.md',
-  './workbook/technical-debt.md',
-  './workbook/quality-payoff.md',
-  './workbook/stories.md',
-  './workbook/3cs.md',
-  './workbook/invest.md',
-  './workbook/dodgy-stories.md',
-  './workbook/story-splitting.md',
-  './workbook/elephant.md',
-  './workbook/xp-practices.md',
-  './workbook/agile-testing.md',
-  './workbook/testing-pyramid.md',
-  './workbook/sbe.md',
+    './workbook/workbook-title-page.md',
+    './workbook/technical-debt.md',
+    './workbook/quality-payoff.md',
+    './workbook/stories.md',
+    './workbook/3cs.md',
+    './workbook/invest.md',
+    './workbook/dodgy-stories.md',
+    './workbook/story-splitting.md',
+    './workbook/elephant.md',
+    './workbook/xp-practices.md',
+    './workbook/agile-testing.md',
+    './workbook/testing-pyramid.md',
+    './workbook/sbe.md',
 
-  './workbook/getting-started-java.md',
-  './workbook/eclipse-shortcuts-windows.md',
-  './workbook/eclipse-shortcuts-mac.md',
-  './workbook/eclipse-junit-templates.md',
-  './workbook/eclipse-favourites.md',
+    './workbook/getting-started-java.md',
+    './workbook/eclipse-shortcuts-windows.md',
+    './workbook/eclipse-shortcuts-mac.md',
+    './workbook/eclipse-junit-templates.md',
+    './workbook/eclipse-favourites.md',
+    './workbook/intellij-shortcuts-windows.md',
 
-  './katas/bowling.md',
-  './katas/fizzbuzz_bonus.md',
-  './katas/roman_numeral_calculator.md',
-  './katas/bartender.md',
-  './katas/bartender2.md',
-  './katas/gilded_rose.md'
+    './katas/bowling.md',
+    './katas/fizzbuzz_bonus.md',
+    './katas/roman_numeral_calculator.md',
+    './katas/bartender.md',
+    './katas/bartender2.md',
+    './katas/gilded_rose.md'
 ];
 
 convert(inputFiles, 'workbook.pdf');
