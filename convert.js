@@ -36,12 +36,12 @@ const options = {
   runningsPath: 'runnings.js'
 };
 
-var Convert = function(inputName, outputName) {
-  console.log('Converting', inputName, 'to', outputName);
+const Convert = function (inputName, outputName) {
+    console.log('Converting', inputName, 'to', outputName);
 
-  markdownpdf(options).concat.from(inputName).to(outputName, function () {
-      console.log('Created', outputName);
-  });
+    markdownpdf(options).concat.from(inputName).to(outputName, function () {
+        console.log('Created', outputName);
+    });
 };
 
 module.exports = Convert;
