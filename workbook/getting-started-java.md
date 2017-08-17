@@ -40,3 +40,9 @@ It should build without any errors and the output should look something like:
 
 BUILD SUCCESSFUL
 ```
+
+## Using IntelliJ
+Once the gradle build has successfully completed, you can can open the katas project in IntelliJ. To do so, start IntelliJ and then `open` the katas folder __note:__ opening each kata individually does not work correctly
+
+## Using Eclipse
+Once the cradle build has successfully completed, you can open the katas project in Eclipse. To do so, start Eclipse and then `import` the katas folder.
