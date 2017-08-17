@@ -18,3 +18,4 @@
 | Commit to VCS                   | CTRL+K      |
 | VCS Quick Popup                 | ALT+` (backquote)|
 
+<sub>A comprehensive cheatsheet is available at https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf</sub>
